@@ -102,13 +102,13 @@ while True:
         print()
         print(f"- Total elements in list : {len(li)}")
         print()
-        print(f"- Total elements in list : {min(li)}")
+        print(f"- Minimum value in list : {min(li)}")
         print()
-        print(f"- Total elements in list : {max(li)}")
+        print(f"- Maximum value in list : {max(li)}")
         print()
-        print(f"- Total elements in list : {sum(li)}")
+        print(f"- Sum of All values in list : {sum(li)}")
         print()
-        print(f"- Total elements in list : {Avg}")
+        print(f"- Average value of list : {Avg}")
         print()
 
     elif Choice == 0:
@@ -117,4 +117,5 @@ while True:
 
     else:
         print("your entered number is invalid :(")
+
 
